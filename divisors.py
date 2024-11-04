@@ -1,5 +1,5 @@
 import sys
-""" import math
+import math
 
 
 def findDivisor(number=int(sys.argv[1])):
@@ -19,10 +19,11 @@ def findDivisor(number=int(sys.argv[1])):
     print()
 
 
-findDivisor() """
+findDivisor()
 
-number = int(sys.argv[1])
+""" number = int(sys.argv[1])
 for i in range(1, number + 1):
     if number % i == 0:
         print(i, end = ' ')
 print()
+ """
